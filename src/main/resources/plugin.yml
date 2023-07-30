@@ -1,0 +1,6 @@
+name: TownyBlockBugFix
+version: '${project.version}'
+main: me.adabugra.TownyBlockBugFix.TownyBlockBugFix
+api-version: '1.19'
+authors: [adabugra]
+description: Fixes block bug caused by TownyAdvanced
