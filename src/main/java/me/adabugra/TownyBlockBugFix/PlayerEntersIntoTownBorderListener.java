@@ -19,6 +19,10 @@ public class PlayerEntersIntoTownBorderListener implements Listener {
         if(resident.hasTown() && resident.getTownOrNull().equals(town)) {
             return;
         }else{
+            if(player.isOp()){
+                return;
+
+            }
             player.setGameMode(GameMode.ADVENTURE);
         }
     }

@@ -9,8 +9,13 @@ import org.bukkit.event.Listener;
 public class PlayerExitsFromTownBorderListener implements Listener {
     @EventHandler
     public void onPlayerExitsFromTownBorderEvent(PlayerExitsFromTownBorderEvent event) {
-        Player player = event.getPlayer();
-        player.setGameMode(GameMode.SURVIVAL);
-    }
 
+        Player player = event.getPlayer();
+        if (player.isOp()) {
+            return;
+        } else {
+            player.setGameMode(GameMode.SURVIVAL);
+        }
+
+    }
 }
