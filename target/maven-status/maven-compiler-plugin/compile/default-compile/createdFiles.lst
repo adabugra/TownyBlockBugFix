@@ -1,0 +1,12 @@
+me\adabugra\TownyBlockBugFix\listeners\TownKickEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlayerEntersIntoTownBorderListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlotTrustAddEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\TownAddResidentEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlayerChangePlotEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlayerTeleportEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\TownTrustAddEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlayerExitsFromTownBorderListener.class
+me\adabugra\TownyBlockBugFix\listeners\TownLeaveEventListener.class
+me\adabugra\TownyBlockBugFix\listeners\PlotTrustRemoveEventListener.class
+me\adabugra\TownyBlockBugFix\TownyBlockBugFix.class
+me\adabugra\TownyBlockBugFix\listeners\TownTrustRemoveEventListener.class
